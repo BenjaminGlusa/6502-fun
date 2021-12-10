@@ -13,8 +13,8 @@ export class Cycles {
 export class CPU {
     public reset(memory: Memory){}
     public execute(cycles: Cycles, memory: Memory){}
-    public getRegister(){}
-    public getFlag(){}
+    public getRegisters(){}
+    public getFlags(){}
     private fetchByte(cycles: Cycles, memory: Memory){}
 
 }
